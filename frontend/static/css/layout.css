@@ -11,6 +11,14 @@
 .lead { color:var(--muted); max-width:640px; font-size:17px; }
 .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
 .features { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:28px 0 80px; }
+.practice-section { padding:56px 0 12px; }
+.practice-section h2 { margin:10px 0 8px; font-size:28px; }
+.practice-intro { color:var(--muted); margin-bottom:24px; }
+.practice-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.practice-card { display:flex; flex-direction:column; align-items:flex-start; gap:14px;
+  min-width:0; padding:24px; border:1px solid var(--line); border-radius:var(--radius); background:var(--surface); }
+.practice-card h3 { margin:0; font-size:19px; }
+.practice-card p { flex:1; color:var(--muted); margin:0; }
 .demo-block { display:grid; grid-template-columns:1fr 1fr; align-items:start; gap:50px; padding-bottom:80px; }
 .demo-block h2 { margin-top:10px; font-size:28px; }
 .demo-block p { max-width:460px; color:var(--muted); }
@@ -18,6 +26,7 @@
 .preview-page { max-width:680px; padding:70px 0 100px; }
 .footer { text-align:center; color:var(--muted); font-size:12px; padding:26px; border-top:1px solid var(--line); }
 @media(max-width:760px) { .hero { padding:48px 0; } .features { grid-template-columns:1fr; margin-bottom:50px; }
+  .practice-grid { grid-template-columns:1fr; }
   .demo-block { grid-template-columns:1fr; gap:22px; padding-bottom:50px; } .topnav {gap:10px;} }
 @media(max-width:480px) { .container { padding:0 16px; } .topbar { padding:14px 16px; }
  .topnav a:nth-child(2) { display:none; } .eyebrow {align-items:flex-start; flex-direction:column;} }
