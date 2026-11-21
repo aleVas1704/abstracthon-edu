@@ -8,31 +8,6 @@
       Esta página no define el problema educativo: está lista para adaptarse a sus dos ensayos.</p>
     <div class="actions">{{ link_button('Explorar la demo', '#demo') }} {{ link_button('Ver estado de API', '/health', 'secondary') }}</div>
   </section>
-  <section class="practice-section" aria-labelledby="practice-title">
-    <span class="section-label">PRÁCTICA EDUCATIVA</span>
-    <h2 id="practice-title">Elige una práctica</h2>
-    <p class="practice-intro">Explora un tema y comienza desde una vista previa.</p>
-    <div class="practice-grid">
-      <article class="practice-card">
-        <span class="badge badge--neutral">Matemáticas</span>
-        <h3>Funciones matemáticas</h3>
-        <p>Relaciona valores, patrones y gráficas con una práctica guiada.</p>
-        {{ link_button('Practicar', '/preview?tema=Funciones%20matem%C3%A1ticas') }}
-      </article>
-      <article class="practice-card">
-        <span class="badge badge--neutral">Lectura</span>
-        <h3>Comprensión lectora</h3>
-        <p>Lee con atención y descubre las ideas principales de un texto.</p>
-        {{ link_button('Practicar', '/preview?tema=Comprensi%C3%B3n%20lectora') }}
-      </article>
-      <article class="practice-card">
-        <span class="badge badge--neutral">Idioma</span>
-        <h3>Inglés básico</h3>
-        <p>Repasa vocabulario y expresiones cotidianas en inglés.</p>
-        {{ link_button('Practicar', '/preview?tema=Ingl%C3%A9s%20b%C3%A1sico') }}
-      </article>
-    </div>
-  </section>
   <section class="features" aria-label="Características">
     {{ panel('Una sola aplicación', 'FastAPI entrega las páginas HTML y la lógica de negocio.') }}
     {{ panel('Componentes coherentes', 'Jinja2, variables CSS e iconos SVG con estilo uniforme.') }}
